@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 
 #matplotlib inline
 
-print('Training data shape : ', train_X.shape, train_Y.shape)
+print('Training data shape :: ', train_X.shape, train_Y.shape)
 
-print('Testing data shape : ', test_X.shape, test_Y.shape)
+print('Testing data shape :: ', test_X.shape, test_Y.shape)
 
 
 classes = np.unique(train_Y)
